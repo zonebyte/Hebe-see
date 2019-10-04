@@ -21,10 +21,13 @@
     <p class="welcome-sub-text">...Best Goal Tracker Tool</p>
   <img class="design-image" src="css/code.png">
 </div>
+
+<!--- sign up form -->
+
 <div class="signup-form">
     <h2 class="register-head-text">Register</h2>
     <p class="register-sub-text">Sign up with your details to get started!</p>
-    <form action="/signin" method="POST">
+    <form name="RegForm" action="success.html" onsubmit="return signUp()" method="post"> 
       <label for="first-name">
         <input type="text" name="first-name" id="first-name" placeholder="First Name">
       </label>
@@ -50,5 +53,9 @@
 </div>
 </div>
 </main>
+
+
+<script src="js/index.js"></script>
+
 </body>
 </html>
